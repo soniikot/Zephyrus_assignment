@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*The rest of the style. I tried to make it very simple, but as well
+ looks good (not using pure white, for background).
+ As well I make sure that user has a good experience using buttons,
+ so I add some simple animation*/
 
 .container {
   font-family: Arial, sans-serif;

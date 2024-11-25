@@ -3,7 +3,7 @@ const yesButton = document.getElementById("yesButton");
 const noButton = document.getElementById("noButton");
 const resultsDiv = document.querySelector(".results");
 
-// Add event listeners to both buttons
+// Add event listeners to both buttons and display teh result text in the div
 yesButton.addEventListener("click", () => {
   resultsDiv.textContent = "Give her a job!";
 });
