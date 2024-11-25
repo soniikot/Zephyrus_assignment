@@ -5,24 +5,22 @@
   box-sizing: border-box;
 }
 
-/* Centering the content vertically and horizontally */
 .container {
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
 }
 
-/* Styling the heading */
 h3 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Button styles */
 .button {
   padding: 10px 20px;
   font-size: 16px;
@@ -30,26 +28,22 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
   margin: 10px;
+  color: white;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .button:hover {
-  background-color: #007bff;
-  color: white;
   transform: scale(1.05);
 }
 
 .button:nth-child(1) {
-  background-color: #28a745; /* Green for "Yes" */
-  color: white;
+  background-color: #28a745;
 }
 
 .button:nth-child(2) {
-  background-color: #dc3545; /* Red for "No" */
-  color: white;
+  background-color: #dc3545;
 }
 
-/* Results div styling */
 .results {
   margin-top: 20px;
   font-size: 18px;
